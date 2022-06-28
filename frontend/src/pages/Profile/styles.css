@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+
+body{
+    margin: 0px 0px;
+    background: #636363;
+}
+
+.profile-container{
+    width: 100%;
+}
+
+.profile-container header{
+    display: flex;
+    align-items: center;
+    background: #ABABAB;
+}
+
+.profile-container header img{
+    padding: 0px 8px;
+}
+
+.profile-container header a{
+    margin-left: auto;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.ButtonDiv{
+    margin-left: 5px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 45px; 
+    padding: 2px;
+}
+
+.ButtonDiv img{
+    margin-top: 5px;
+}
+
+.Menu-Fundo{
+    width: 100%;
+    height: 100%;
+}
+
+.DivSelect{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   padding: 50px;
+   transform: translate(-50%, -50%);
+   background-color: rgba(0, 0, 0, 0.4);
+   border-radius: 15px;
+}
+
+.DivSelect div ul li label{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #ABABAB;
+    font-family: Roboto;
+    font-size: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.ButtonsComands{
+    align-items: center;
+    padding: initial;
+}
+
+.DivSelect div ul{
+    list-style: none;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 8px;
+}
+
+.DivSelect div ul li{
+    padding: 8px;
+}
+
+header p{
+    font-size: 40px;
+    color: #636363;
+}
+
+p{
+    position: relative;
+    text-align: center;
+}
+
+.DivExt{
+    display: flex; 
+}
+
+.DivExt ul li{
+    align-items: center;
+    text-align: center; 
+}
+
+.DivExt ul{
+    list-style: none;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8px;
+}
+
+.DivExt ul li input[type=radio]{
+    display: none;
+}
+  
+.DivExt ul li label{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #ABABAB;
+    font-family: Roboto;
+    font-size: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.DivExt ul li input[type=radio]:checked + label,
+.DivExt ul li input[type=radio]:hover + label{
+    border: 2px solid;
+    border-color: #ABABAB;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ButtonsComands{
+    text-align: center;
+}
+
+.ButtonsComands button:hover{
+    border: #fff 2px;
+}
+
+.DivSelect div ul li input[type=radio]{
+  display: none;
+}
+
+.DivSelect div ul li input[type=radio]:checked + label,
+.DivSelect div ul li input[type=radio]:hover + label{
+    border: 2px solid;
+    border-color: gold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.BoxComands{
+    position: absolute;
+    top: 50%;
+    display: none;
+    left: 50%;
+    color: #636363;
+    width: 575px;
+    height: 350px;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+}
+
+.BoxComands input{
+      width: 100%;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      background: transparent;
+      border: none;
+      font-size: 22px;
+      border-bottom: 1px solid lightblue;
+      outline: none;
+      color: #fff;
+  }
+
+.Buttons{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.BtnCancelar {
+    display: none;
+}
+
+.LblCancelar{
+    font-family: Satisfy;
+    font-size: 35px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #636363;
+    margin-right: 20px;
+}
+
+.LblCancelar:hover{
+    border: 2px solid;
+    border-color: #636363;
+    border-radius: 15px;
+}
+
+.Buttons button{
+    color: #636363;
+    margin-left: auto;
+}
+
+.Buttons button:hover{
+    opacity: 0.8;
+}

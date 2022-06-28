@@ -1,0 +1,34 @@
+/* Html*/
+
+.TagHtml{
+    color: #88ccbb;
+}
+.codHtml{
+    color: #ff9999;
+}
+.compleHtml{
+    color: #c5a5c5;
+}
+.compleHtmlAspas{
+    color: #88c999;
+}
+
+
+/* Css */
+
+.Tipo01{
+    color: #50fa7b;
+}
+.Token{
+    color: #ffffff;
+}
+.DpsToken{
+    color: #95d8ff;
+}
+.DpsDoisPontos{
+    color: #a769ff;
+}
+.CSSAspas{
+    color: #f1ed69;
+    outline: #f1ed69;
+}

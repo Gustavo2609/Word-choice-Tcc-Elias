@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-width: 900px;
+    background-color: rgb(179, 179, 179);
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap%27');
+  
+   h3,button, span{
+    font-family: Satisfy;
+    font-size: 40px;
+    color: #000;
+  }
+  
+  p{
+    font-family: Satisfy;
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  h3{
+    font-size: 65px;
+  }
+  
+  .App-header {
+    background-color: #636363;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .headOfPage{
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+  }
+  
+  button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+  }
+
+  button:hover, button:focus{
+     color: -webkit-linear-gradient( gold, #333);
+  }
+  .right-conteiner{
+    position: absolute;
+    top: -5px;
+    left:80%;
+    white-space: nowrap;
+  }
+  .logo{
+      color: gold;
+      position: relative;
+      animation: rotacao 3s linear infinite;
+  }
+
+  .logo:hover{
+    cursor: url('./assets/cheese.png'), auto;
+  }
+  
+  @keyframes rotacao{
+    from{
+      transform: rotateY(0deg);
+    }
+    to{
+      transform: rotateY(360deg);
+    }
+  }
+  .wc{
+    margin-left: 55px;
+    border-right: 4px solid #636363;
+    border-left: 4px solid #636363;
+    padding: 10px;
+  }
+  

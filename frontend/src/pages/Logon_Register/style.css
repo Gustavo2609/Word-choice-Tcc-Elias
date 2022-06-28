@@ -1,0 +1,94 @@
+
+.logo{
+    cursor: url('../../assets/cheese.png'), auto;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+  
+  .App-header {
+    background-color: #6363632a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  
+  }
+  .headOfPage{
+    background-color: #aaa;
+    width: 100%;
+    height: 60px;
+  }
+
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  .inputBoxLogin .inputs,
+  .inputBoxCadastro .inputs
+  {
+      position: relative;
+  }
+  .inputBoxLogin .inputs input,
+  .inputBoxCadastro .inputs input{
+      width: 100%;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      background: transparent;
+      border: none;
+      font-size: 22px;
+      border-bottom: 1px solid lightblue;
+      outline: none;
+      color: #fff;
+  }
+  .inputBoxLogin,
+  .inputBoxCadastro{
+      display: inline-block;
+      width: 640px;
+      padding: 104px;
+      background: rgba(0, 0, 0, 0.9);
+      border-radius: 9px;
+      box-sizing: border-box;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  .inputBoxLogin h2,
+  .inputBoxCadastro h2{
+      font-size: 32px;
+      margin-left: 50px;
+      margin: 0 0 30px;
+      padding: 0;
+      text-align: center;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 56px;
+      color: #aaa;
+      background: -webkit-linear-gradient( gold, #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  span{
+      font-size: 60;
+  }
+
+  .inputBoxLogin, .inputBoxCadastro{
+    display: none;
+  }
+
+  h3{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url('../../assets/tecnology.jpg');
+  }
+
+
+  .inputBoxCadastro button,
+  .inputBoxLogin button{
+    display: none;
+  }
